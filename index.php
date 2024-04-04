@@ -21,13 +21,13 @@
         <form action="orderReciept.php" method="POST" class="w-100">
             <p>Your name:</p>
             <input type="text" name="name">
-            <input type="checkbox" name="flavor[g]">The Grasshopper
-            <input type="checkbox" name="flavor[w]">Whiskey Maple Bacon
-            <input type="checkbox" name="flavor[]">Carrot Walnut
-            <input type="checkbox" name="flavor[]">Salted Caramel Cupcake
-            <input type="checkbox" name="flavor[]">Red Velvet
-            <input type="checkbox" name="flavor[]">Lemon Drop
-            <input type="checkbox" name="flavor[]">Tiramisu
+            <input type="checkbox" name="flavor[]" value="The Grasshopper">The Grasshopper
+            <input type="checkbox" name="flavor[]" value="The Grasshopper">Whiskey Maple Bacon
+            <input type="checkbox" name="flavor[]" value="The Grasshopper">Carrot Walnut
+            <input type="checkbox" name="flavor[]" value="The Grasshopper">Salted Caramel Cupcake
+            <input type="checkbox" name="flavor[]" value="The Grasshopper">Red Velvet
+            <input type="checkbox" name="flavor[]" value="The Grasshopper">Lemon Drop
+            <input type="checkbox" name="flavor[]" value="The Grasshopper">Tiramisu
             <input type="submit" name="submit" value="Order">
         </form>
     </div>
