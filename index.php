@@ -17,7 +17,7 @@
 </head>
 <body>
     <h1 class="text-center">Cupcake Fundraiser</h1>
-    <div class="align-items-center col-6 text-center mx-auto">
+    <div class="align-items-center col-6 fs-5 text-center mx-auto">
         <form action="orderReciept.php" method="POST" class="text-start col-4 mx-auto">
             <p>Your name:</p>
             <input type="text" name="name" placeholder="Please input your name."><br>

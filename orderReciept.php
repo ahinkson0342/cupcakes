@@ -28,6 +28,7 @@
             $totalCost += 3.50;
         }
         echo"</ul>";
+        $totalCost = number_format($totalCost, 2);
         echo"Order Total: $$totalCost";
         ?>
     </div>
