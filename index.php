@@ -16,18 +16,18 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>Cupcake Fundraiser</h1>
-    <div class="align-items-center col-6">
-        <form action="orderReciept.php" method="POST" class="w-100">
+    <h1 class="text-center">Cupcake Fundraiser</h1>
+    <div class="align-items-center col-6 text-center mx-auto">
+        <form action="orderReciept.php" method="POST" class="text-start col-4 mx-auto">
             <p>Your name:</p>
-            <input type="text" name="name">
-            <input type="checkbox" name="flavor[]" value="The Grasshopper">The Grasshopper
-            <input type="checkbox" name="flavor[]" value="Whiskey Maple Bacon">Whiskey Maple Bacon
-            <input type="checkbox" name="flavor[]" value="Carrot Walnut">Carrot Walnut
-            <input type="checkbox" name="flavor[]" value="Salted Caramel Cupcake">Salted Caramel Cupcake
-            <input type="checkbox" name="flavor[]" value="Red Velvet">Red Velvet
-            <input type="checkbox" name="flavor[]" value="Lemon Drop">Lemon Drop
-            <input type="checkbox" name="flavor[]" value="Tiramisu">Tiramisu
+            <input type="text" name="name" placeholder="Please input your name."><br>
+            <input type="checkbox" name="flavor[]" value="The Grasshopper">The Grasshopper<br>
+            <input type="checkbox" name="flavor[]" value="Whiskey Maple Bacon">Whiskey Maple Bacon<br>
+            <input type="checkbox" name="flavor[]" value="Carrot Walnut">Carrot Walnut<br>
+            <input type="checkbox" name="flavor[]" value="Salted Caramel Cupcake">Salted Caramel Cupcake<br>
+            <input type="checkbox" name="flavor[]" value="Red Velvet">Red Velvet<br>
+            <input type="checkbox" name="flavor[]" value="Lemon Drop">Lemon Drop<br>
+            <input type="checkbox" name="flavor[]" value="Tiramisu">Tiramisu<br>
             <input type="submit" name="submit" value="Order">
         </form>
     </div>
