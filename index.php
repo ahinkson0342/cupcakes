@@ -10,7 +10,16 @@
 <body>
     <h1>Cupcake Fundraiser</h1>
     <form action="" method="POST">
-        <input type="text">
+        <p>Your name:</p>
+        <input type="text" name="name">
+        <input type="checkbox" name="flavor[]">The Grasshopper
+        <input type="checkbox" name="flavor[]">Whiskey Maple Bacon
+        <input type="checkbox" name="flavor[]">Carrot Walnut
+        <input type="checkbox" name="flavor[]">Salted Caramel Cupcake
+        <input type="checkbox" name="flavor[]">Red Velvet
+        <input type="checkbox" name="flavor[]">Lemon Drop
+        <input type="checkbox" name="flavor[]">Tiramisu
+        <input type="submit" name="submit">
     </form>
 </body>
 </html>
