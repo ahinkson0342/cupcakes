@@ -22,12 +22,12 @@
             <p>Your name:</p>
             <input type="text" name="name">
             <input type="checkbox" name="flavor[]" value="The Grasshopper">The Grasshopper
-            <input type="checkbox" name="flavor[]" value="The Grasshopper">Whiskey Maple Bacon
-            <input type="checkbox" name="flavor[]" value="The Grasshopper">Carrot Walnut
-            <input type="checkbox" name="flavor[]" value="The Grasshopper">Salted Caramel Cupcake
-            <input type="checkbox" name="flavor[]" value="The Grasshopper">Red Velvet
-            <input type="checkbox" name="flavor[]" value="The Grasshopper">Lemon Drop
-            <input type="checkbox" name="flavor[]" value="The Grasshopper">Tiramisu
+            <input type="checkbox" name="flavor[]" value="Whiskey Maple Bacon">Whiskey Maple Bacon
+            <input type="checkbox" name="flavor[]" value="Carrot Walnut">Carrot Walnut
+            <input type="checkbox" name="flavor[]" value="Salted Caramel Cupcake">Salted Caramel Cupcake
+            <input type="checkbox" name="flavor[]" value="Red Velvet">Red Velvet
+            <input type="checkbox" name="flavor[]" value="Lemon Drop">Lemon Drop
+            <input type="checkbox" name="flavor[]" value="Tiramisu">Tiramisu
             <input type="submit" name="submit" value="Order">
         </form>
     </div>
